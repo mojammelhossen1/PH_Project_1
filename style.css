@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',
+        sans-serif;
+
+}
+
+section {
+
+    display: flex;
+}
+
+.secOne {
+    background: url(./images/top-banner.png);
+    background-repeat: no-repeat;
+
+}
+
+.secTwo {
+    background: url(./images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.secThree {
+    display: block;
+}
+
+
+
+h2 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+
+.separator {
+    width: 50%;
+    margin: 0% 7%;
+}
+
+.separator h1 {
+    margin-top: 30px;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.separator h1 span {
+    display: inline;
+    color: #ffa500;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.separator span {
+    margin-top: 50px;
+    display: block;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+p {
+    margin: 20px 0px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #696969;
+}
+
+a {
+    margin-top: 20px;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 30px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 7px;
+}
+
+.separator img {
+    width: 100%;
+}
+
+.separator-wrapper {
+    margin-top: 50px;
+    display: flex;
+}
+
+
+.separator-wrapper-one .threep {
+    margin: 0% 7% 0% 0%;
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+.separator-wrapper-two .threep {
+    margin: 0% 0% 0% 7%;
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+
+.separator-wrapper-one {
+    background: url(./images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+.card {
+    box-shadow: 5px 7px 40px grey;
+    padding: 45px 0px 55px 35px;
+    width: 100%;
+}
+
+.secThree .separator .card h2 {
+    text-align: left;
+    margin-bottom: -30px;
+    font-weight: 500;
+}
+
+.secThree h2 {
+    text-align: center;
+}
+
+.colored {
+    color: #ffa500;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 120px;
+}
